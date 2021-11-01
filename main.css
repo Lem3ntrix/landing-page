@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: space-around;
     
-    height: 25vh;
+    height: 300px;
     background-color: #1F2937;
     padding-bottom: 30px;
 }
@@ -79,6 +79,80 @@ body {
     width: 30vw;
     
     background-color: grey;
+}
+
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    height: 300px;
+}
+
+.container2header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.container2boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container2box {
+    width: 150px;
+}
+
+.container2boxtext {
+    text-align: center;
+    
+}
+
+.container2boximage {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 300px;
+
+    background-color: #E5E7EB;
+}
+
+.container3quote {
+    width: 70vh;
+    
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.container3person {
+    width: 70vh;
+    
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    
+
 }
 
 .footer {
